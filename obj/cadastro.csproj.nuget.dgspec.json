@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TIAGO\\Desktop\\VISUALPROJECTS\\cadastro\\cadastro.csproj": {}
+    "C:\\Users\\TIAGO\\Desktop\\PROJETOS\\DesafioApi\\cadastro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TIAGO\\Desktop\\VISUALPROJECTS\\cadastro\\cadastro.csproj": {
+    "C:\\Users\\TIAGO\\Desktop\\PROJETOS\\DesafioApi\\cadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TIAGO\\Desktop\\VISUALPROJECTS\\cadastro\\cadastro.csproj",
+        "projectUniqueName": "C:\\Users\\TIAGO\\Desktop\\PROJETOS\\DesafioApi\\cadastro.csproj",
         "projectName": "cadastro",
-        "projectPath": "C:\\Users\\TIAGO\\Desktop\\VISUALPROJECTS\\cadastro\\cadastro.csproj",
+        "projectPath": "C:\\Users\\TIAGO\\Desktop\\PROJETOS\\DesafioApi\\cadastro.csproj",
         "packagesPath": "C:\\Users\\TIAGO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TIAGO\\Desktop\\VISUALPROJECTS\\cadastro\\obj\\",
+        "outputPath": "C:\\Users\\TIAGO\\Desktop\\PROJETOS\\DesafioApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

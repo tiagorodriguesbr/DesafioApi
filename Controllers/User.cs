@@ -21,6 +21,7 @@ namespace cadastro.Controllers
                 var Users = await Context.Users.ToListAsync();
                 return Users;
             }
+            
             [HttpPost]
             [Route("")]
             public async Task<ActionResult<User>> Post(
@@ -37,6 +38,44 @@ namespace cadastro.Controllers
                     {
                         return BadRequest(ModelState);
                     }
+                }
+            
+            [HttpDelete("{id:int}")]
+            [Route("")]
+            public async Task<ActionResult<User>> Delete([FromServices] DataContext context, int id)
+            {
+                try
+                {
+                    var _usuario = context.Users.Find(id);
+                    context.Users.Remove(_usuario);
+                    await context.SaveChangesAsync();
+                    _usuario = null;
+                    return Ok("User Deleted!");
+                }
+                catch (Exception ex)
+                {
+                    return NotFound();
+                }
+            }
+
+            [HttpPut("{id:int}")]
+            [Route("")]
+            public async Task<ActionResult<User>> Put(
+                [FromServices] DataContext context,
+                [FromBody]User model, int id)
+                {
+                    if (ModelState.IsValid)
+                    {
+                        var _usuario = context.Users.Find(id);
+                        _usuario.Nome = model.Nome;
+                        _usuario.Endereco = model.Endereco;
+                        await context.SaveChangesAsync();
+                        return Ok("Sucess in update");
+                    }
+                    else
+                    {
+                        return BadRequest(ModelState);
+                     }
                 }
         }
 }

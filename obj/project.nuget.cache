@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+SQk8WexOQHX4DAVvfE/xM6V1j4Bvd7OD9fx2WwsByDDnvpZaTnfFAc7d2gA8+4DWGZ8sh/+I+Gn8l38djt9FQ==",
+  "dgSpecHash": "FhC+l6pzk9Bk55UeGVeyW2poLjlXv9BV4HqZkNwWRlh92/+o6g0MMi93g3oe7mMV7FiEBkcawk37lPyTsc8Bhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TIAGO\\Desktop\\VISUALPROJECTS\\cadastro\\cadastro.csproj",
+  "projectFilePath": "C:\\Users\\TIAGO\\Desktop\\PROJETOS\\DesafioApi\\cadastro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TIAGO\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.8\\microsoft.entityframeworkcore.5.0.8.nupkg.sha512",
     "C:\\Users\\TIAGO\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.8\\microsoft.entityframeworkcore.abstractions.5.0.8.nupkg.sha512",
